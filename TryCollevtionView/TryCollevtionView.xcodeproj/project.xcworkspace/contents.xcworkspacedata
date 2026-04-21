@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TryCollevtionView.xcodeproj">
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:TryCollectionView SwiftUI&#x5316;.md">
+   </FileRef>
+   <FileRef
+      location = "group:TryCollectionViewSwiftUI&#x5316;.md">
    </FileRef>
 </Workspace>

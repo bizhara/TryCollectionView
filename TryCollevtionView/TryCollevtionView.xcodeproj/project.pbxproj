@@ -61,6 +61,7 @@
 		7273302724C9C056001E7B0C /* UseXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseXib.swift; sourceTree = "<group>"; };
 		7273302924C9C160001E7B0C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		7273302A24C9C160001E7B0C /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		DB4253502F97AAB600AF8FAA /* TryCollectionViewSwiftUI化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TryCollectionViewSwiftUI化.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 				7240102E24C9618500D82D8D /* TryCollevtionViewTests */,
 				7240103924C9618500D82D8D /* TryCollevtionViewUITests */,
 				7240101624C9618300D82D8D /* Products */,
+				DB4253502F97AAB600AF8FAA /* TryCollectionViewSwiftUI化.md */,
 			);
 			sourceTree = "<group>";
 		};
