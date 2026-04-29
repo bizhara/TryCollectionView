@@ -1,4 +1,4 @@
-# TryCollevtionView
+# TryCollectionView
 ## 実現したかったこと
 - UICollectionViewをUITableViewの代わりに使う (1 column collection view)
 - UICollectionViewCellで動的に高さを計算する (dynamic cell height)
