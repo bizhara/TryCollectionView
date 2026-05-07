@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1300"
+   LastUpgradeVersion = "2640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7240101424C9618200D82D8D"
-               BuildableName = "TryCollevtionView.app"
-               BlueprintName = "TryCollevtionView"
-               ReferencedContainer = "container:TryCollevtionView.xcodeproj">
+               BuildableName = "TryCollectionView.app"
+               BlueprintName = "TryCollectionView"
+               ReferencedContainer = "container:TryCollectionView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7240103524C9618500D82D8D"
+               BuildableName = "TryCollectionViewUITests.xctest"
+               BlueprintName = "TryCollectionViewUITests"
+               ReferencedContainer = "container:TryCollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,19 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7240102A24C9618500D82D8D"
-               BuildableName = "TryCollevtionViewTests.xctest"
-               BlueprintName = "TryCollevtionViewTests"
-               ReferencedContainer = "container:TryCollevtionView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7240103524C9618500D82D8D"
-               BuildableName = "TryCollevtionViewUITests.xctest"
-               BlueprintName = "TryCollevtionViewUITests"
-               ReferencedContainer = "container:TryCollevtionView.xcodeproj">
+               BuildableName = "TryCollectionViewTests.xctest"
+               BlueprintName = "TryCollectionViewTests"
+               ReferencedContainer = "container:TryCollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7240101424C9618200D82D8D"
-            BuildableName = "TryCollevtionView.app"
-            BlueprintName = "TryCollevtionView"
-            ReferencedContainer = "container:TryCollevtionView.xcodeproj">
+            BuildableName = "TryCollectionView.app"
+            BlueprintName = "TryCollectionView"
+            ReferencedContainer = "container:TryCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7240101424C9618200D82D8D"
-            BuildableName = "TryCollevtionView.app"
-            BlueprintName = "TryCollevtionView"
-            ReferencedContainer = "container:TryCollevtionView.xcodeproj">
+            BuildableName = "TryCollectionView.app"
+            BlueprintName = "TryCollectionView"
+            ReferencedContainer = "container:TryCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
