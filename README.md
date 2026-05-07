@@ -1,6 +1,6 @@
 # TryCollectionView
 ## 実現したかったこと
-- 下記作りからのSwiftUI化
+- 下記作りからのSwiftUI化 (Use Codex through Xcode agentic coding with Xcode)
 - ~~UICollectionViewをUITableViewの代わりに使う (1 column collection view)~~
 - ~~UICollectionViewCellで動的に高さを計算する (dynamic cell height)~~
 - ~~UICollectionViewCellでxibのみでSeparatorを描く~~
