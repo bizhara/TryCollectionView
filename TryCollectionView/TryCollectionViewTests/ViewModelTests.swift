@@ -1,20 +1,22 @@
-import XCTest
+import Foundation
+import Testing
 @testable import TryCollectionView
 
-final class ViewModelTests: XCTestCase {
-    @MainActor
-    func testTitleString() {
+struct ViewModelTests {
+    @Test @MainActor
+    func titleString() {
         let viewModel = ViewModel()
-        XCTAssertEqual(viewModel.titleString, Bundle.main.infoDictionary?["CFBundleName"] as? String ?? "")
+
+        #expect(viewModel.titleString == Bundle.main.infoDictionary?["CFBundleName"] as? String ?? "")
     }
 
-    @MainActor
-    func testFetchStoresMockData() async {
+    @Test @MainActor
+    func fetchStoresMockData() async {
         let viewModel = ViewModel()
 
         await viewModel.fetch()
 
-        XCTAssertEqual(viewModel.cellData.count, MockCellData.mockCellData.count)
-        XCTAssertEqual(viewModel.cellData, MockCellData.mockCellData)
+        #expect(viewModel.cellData.count == MockCellData.mockCellData.count)
+        #expect(viewModel.cellData == MockCellData.mockCellData)
     }
 }
